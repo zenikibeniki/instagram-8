@@ -2,7 +2,9 @@
   box-sizing: border-box;
 }
 
-button {
+.navbar button {
+  position: fixed;
+  right: 200px;
   border: 0;
   padding: 0;
   background: transparent;
@@ -12,7 +14,7 @@ button {
 .navbar,
 .burger,
 .menu,
-.backfround {
+.background {
   position: fixed;
 }
 
@@ -30,7 +32,7 @@ button {
 
 }
 
-.navbar-burger {
+.burger {
   z-index: 3;
   top: 0;
   right: 0;
@@ -100,8 +102,8 @@ button {
   color: #f9f9f9;
   font-size: 32px;
 }
-body.opne .background {
-  filter:blur(20px)
+body.open .background {
+  filter: blur(20px)
 }
 
 body.open .burger {
@@ -116,7 +118,7 @@ body.menu .menu {
 @keyframes appear {
   0% {
     opacity: 0;
-    transform: 0 50px;
+    translate: 0 50px;
   }
   100% {
      opacity: 1;
