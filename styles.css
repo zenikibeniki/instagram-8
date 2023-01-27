@@ -2,9 +2,8 @@
   box-sizing: border-box;
 }
 
-.navbar button {
-  position: fixed;
-  right: 200px;
+ button {
+ 
   border: 0;
   padding: 0;
   background: transparent;
@@ -12,7 +11,7 @@
 }
 
 .navbar,
-.burger,
+.navbar-burger,
 .menu,
 .background {
   position: fixed;
@@ -32,7 +31,7 @@
 
 }
 
-.burger {
+.navbar-burger {
   z-index: 3;
   top: 0;
   right: 0;
