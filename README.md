@@ -1,2 +1,2 @@
 # instagram-8
-made by [opeui.io](instagram.com/hopeui.io)
+made by [opeui.io](https://www.instagram.com/hopeui.io/)
